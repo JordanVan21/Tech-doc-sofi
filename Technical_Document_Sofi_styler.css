@@ -1,0 +1,148 @@
+#navbar {
+  height: 100vh;
+      width: 175px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: lightgrey;
+      padding-top: 20px;
+}
+
+#navbar a {
+  display: block;
+  font-size: 20px;
+  padding: 40px;
+  padding-left: 5px;
+padding-right: 0px;
+  text-decoration: none;
+}
+
+#navbar header {
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .navbar a {
+    display: inline-block;
+    width: auto;
+  }
+}
+
+#main-doc, footer {
+  margin-left: 160px;
+      padding: 20px;
+      flex-grow: 1;
+}
+
+
+
+.main-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 300px;
+  padding-top: 10px;
+}
+#img-desc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+  text-align: center;
+}
+
+.numbered-list {
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
+#unordered {
+  padding-left: 10px;
+  line-height: 1.5;
+}
+
+#unordered-s {
+  padding-top: 10px;
+}
+
+.header {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.server-drop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 12px 10px;
+}
+
+.server-drop img {
+  padding-top: 0px;
+  width: 100%;
+  max-width: 350px;
+  height: 330px;
+  object-fit: cover;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: #6495ed;
+}
+
+ul {
+  padding-bottom: 10px;
+}
+
+.img-about {
+  text-align: center;
+  padding-bottom: 8px;
+  padding-top: 0px;
+}
+
+.code {
+  background-color: lightgrey;
+  width: 100pv;
+  height: 25px;
+  padding-bottom: 0px;
+  margin-bottom: -10px;
+}
+
+.table {
+  width: 100pv;
+  border-collapse: collapse;
+  border: 2px solid lightgrey;
+}
+
+th, td{
+  border: 2px solid lightgrey;
+  padding: 10px;
+}
+
+.header2 h2{
+  margin-top: 5px;
+  margin-bottom: -7px;
+}
+
+footer header {
+  font-size: 20px;
+  font-weight: bold;
+}

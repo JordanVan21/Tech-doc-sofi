@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Technical Document Sofi styler.css"></link>
+    <title>Sofi Technical Documentation Page</title>
+  </head>
+  <nav id="navbar">
+        <header>Sofi Guides</header>
+        <a href="#introduction" class="nav-link">Introduction</a>
+        <a href="#what_you_should_know_before_getting_into_it" class="nav-link">What You Should Know Before Getting Into It</a>
+        <a href="#general_info" class="nav-link">General Info</a>
+        <a href="#currency_and_trading" class="nav-link">Currency and Trading</a>
+        <a href="#cosmetics" class="nav-link">Cosmetics</a>
+        <a href="#references" class="nav-link">References</a>
+      </nav>
+  <body>
+    <main id="main-doc">
+      <section class="main-section" id="introduction">
+        <header class="header">Introduction</header>
+        <p>Sofi is a versatile card game bot on Discord that allows users to collect and trade cards featuring a wide range of themes, including K-pop groups, video games, anime, manga, and more.</p>
+        <p> Designed to enhance the gaming experience within Discord servers, Sofi fosters community engagement and interaction among members who share similar interests. For example:
+<div id="unordered"><ul><li>As a multi-server bot, Sofi can be integrated into various Discord communities, making its features accessible to all users in any server where it is installed. This flexibility not only enriches individual gaming experiences but also encourages collaboration and competition among players across different servers.</li>
+        <li id="unordered-s">Sofi offers a user-friendly interface that makes it easy to collect, trade, and showcase cards, adding an exciting layer of interactivity to your Discord experience. Whether you are a casual fan or a dedicated collector, Sofi provides an engaging platform to explore and celebrate your favorite franchises while connecting with like-minded individuals. With its emphasis on community and shared interests, Sofi is more than just a game; it’s a way to build connections and share passions within the vibrant Discord ecosystem.</li></ul></div></p>
+      </section>
+      <section class="main-section" id="what_you_should_know_before_getting_into_it">
+        <header class="header">What You Should Know Before Getting Into It</header>
+        <img src="https://guide.sofi.gg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcooldown.14b79c8f.png&w=640&q=75" alt="A Sofi command of a list of cooldowns"><div id="img-desc">using the Sofi cooldown(<span class="bold">scd</span>) we can see a list of frequently used cooldowns</div>
+        <p><ol class="numbered-list">
+          <li><span class="bold">Drop</span> - In the game, players can utilize the command <span class="bold">sdrop (or sd)</span> to drop a set of 3 random cards. This feature is designed to enhance gameplay dynamics by introducing an element of chance and strategy.<ul>
+    <li>The<span class="bold"> sdrop</span> command can be executed every <span class="bold">8</span> minutes. A cooldown timer is initiated to maintain game balance and to prevent subsequent uses or more generally is a "time-out feature" to set limits on gambling activities. </li>
+    <li>The dropper has <span class="bold">drop priority</span> meaning others who grab the same card get 100% blocked and has no chance of getting that card for a certain amount of time.</li>
+    </ul>
+<div>Apart from the player drops, there are server drops as well. These depend on how active the server is in which Sofi is in. The three server drops below:</div>
+<div class="server-drop"> 
+  <img src="https://guide.sofi.gg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcaptcha-drop.17293fe0.png&w=640&q=75" alt="captcha drop">
+<div class="img-about">Type the captcha below the image to claim. It is not case sensitive. Captcha cards appearances depend on how active a Players server is. Though you better be fast incase it's a card you want (Beware of vultures).</div>
+<img src="https://guide.sofi.gg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fseries-drop.1b8e37e6.png&w=750&q=75" alt="A drop that produces 3 series">
+<div class="img-about">Three different series will be dropped for voting, players can cast their vote on one series. After a 30 second voting period, two cards from that series will drop. These do not have drop priority, so all players have an equal opportunity to grab them.</div>
+<img src="https://guide.sofi.gg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fminigame-drop.ef7a1094.png&w=640&q=75" alt="Sofi Minigame of chance">
+<div class="img-about">One card will drop behind six hidden options. Only one of six options contains the card. Players have one chance to select from the six options to claim the card. Like everything about Sofi, this minigame is about chance and luck.</div>
+</div>
+    </li>
+          <li><span class="bold">Grab</span> - In the game, players can acquire cards from a drop by using the designated numbered buttons. This feature allows for quick and strategic card collection, adding an interactive element to gameplay.</li>
+    <ul>
+      <li> Each card available in the drop is assigned a unique numbered button(e.g, button 1, button 2, etc.) Players must press the correct button to select the desired card.</li>
+      <li>Players can grab every <span class="bold">4</span> minutes. As like the drop command, the grab feature has a cooldown timer preventing additional grabs until the specified time is over.</li>
+    </ul>
+          <li><span class="bold">Vote</span> - Players can vote for <a href="https://top.gg/bot/853629533855809596/vote" target="_blank">Sofi</a> every <span class="bold">12</span> hours to get a single wist which is a kind of currency that can be used within the game. Voting on Friday, Saturday, and Sunday will give two wists.</li>
+          <ul>
+            <li>Players can utilize the command <span class="bold">svote</span> to get the voting links and the player's progression towards the required number of votes per month.</li>
+            <li>Voting is crucial in the Sofi game to earn rewards, specifically monthly chests. Players must accumulate a designated number of votes within the month to qualify for these rewards.</li>
+            <img src="https://guide.sofi.gg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvoting.db59ecf4.png&w=1200&q=75" alt="picture of what the website shows for voting">
+          </ul>
+          <div class="img-about">What the website link shows when clicked on within the game.</div>
+          <li><span class="bold">Raid</span> - A community-driven event where players collaborate to attack or challenge a specific target, often for rewards or in-game benefits.</li>
+          <ul>
+            <li>Players can use the command <span class="bold">sglobalraid (or sgr)</span> to look at the raid info and to be able to start the raid. Players must have a deck before being able to start a raid.
+            </li>
+            <li>Successful raids can yield various in-game rewards, such as currency, items, or experience points.</li>
+          </ul>
+        <div>For additional information on Raids, please refer to the official <a href="https://guide.sofi.gg/global-raid">Sofi guide</a>.</div>
+          <li><span class="bold">Daily</span> - In the game, the command <span class="bold">sdaily</span> shows daily, weekly, and a monthly quest that all players can complete within each of their allotted times.</li>
+          <li><span class="bold">Bump</span> - A process in which you "bump" on <a href="https://sofi.gg/bump">sofi.gg</a> to get points for rewards.</li>
+          <ul>
+            <li>Every 4 hours players can use the command <span class="bold">sbump</span> in discord to get the link to <a href="https://sofi.gg/bump">sofi.gg</a> in which the players can bump to be able to get 4 different types of rewards. Which are:<ul>
+              <li>4 Hour Trade Pass (1 Bump)</li>
+              <li>1 Month Trade Pass (20 Bumps)</li>
+              <li>100 Silver (1 Bump)</li>
+              <li>1 Gen Scratcher (60 Bumps)</li>
+              </ul>
+              </li>
+        <div>The most sought out reward is the Trade Pass, since this is how players can trade currencies to one another.</div>
+          </ul>
+          </ol></p>
+      </section>
+      <section class="main-section" id="general_info">
+        <header class="header">General Info</header>
+        <p>The following information serves as a foundational resource for players to enhance their understanding and gameplay experience. Players will acquire this knowledge through their engagement with the game mechanics and environments. This information is intended to provide context and insights that facilitate informed decision-making during gameplay.</p>
+        <p class="code"><code>sburn or sburn [card code]</code></p>
+        <p><img src="https://guide.sofi.gg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fburn.28af5c03.png&w=640&q=75" alt="example of a card being burned and the rewards from it"></p>
+        <p>The "Burning" process allows players to dispose of selected cards in exchange for in-game currency. This currency can subsequently be utilized for various purposes within the game. Players may initiate the Burning process on cards they have acquired by typing in <span class="bold">sburn(or sb) or sburn(or sb) [cardcode]</span>, effectively converting them into valuable assets for further gameplay advancements.</p>
+        <p class="code"><code>Gen: G1-G2000</code></p>
+        <p><table class="table">
+          <tr>
+          <th>Category</th>
+          <td>Single Gen</td>
+          <td>Low Gen</td>
+          <td>Mid Gen</td>
+          <td>High Gen</td>
+          </tr>
+          <tr>
+          <th>Gen</th>
+          <td>G1 - G9</td>
+          <td>G10 - G99</td>
+          <td>G100 - G999</td>
+          <td>G1000 - G2000</td>
+          </tr>
+          </table></p>
+        <p>Cards that are generated (or "dropped" are assigned a generation(gen value). Each gen card generated within the system will have its gen value assigned within the definite range. Lower gen values indicate higher values for the dropped cards.</p>
+         <p class="code"><code>slookup or slookup [card code]</code></p>
+         <p><img src="https://guide.sofi.gg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flookup.30391f91.png&w=640&q=75" alt="A picture of a character that was looke up"></p>
+         <p>Lookup gives the player information about the character on the card, its versions and event versions. Players type in <span class="bold">slookup (or slu)</span> to look up the information. The information lookup provides:</p>
+         <ol>
+           <li>
+            Series and Name of character
+           </li>
+           <li>
+             How many wishlists the character has
+           </li>
+           <li>
+             How many 2D versions the character has
+           </li>
+           <li>
+             How many event versions the character has
+           </li>
+           <li>
+             An image showing every 2D version
+           </li>
+           </ol>
+           <p>Players can view every 2D version of the character by the "Version" button and every event version by the "Event" button.</p>
+            <p>There are various methods players can utilize to find character information, for example players can do character lookup, series lookup, force search, and selection(from force search).</p>
+          <p class="code"><code>swishlist</code></p>
+          <p>The Wishlist feature enables players to indicate specific characters they are seeking. This functionality not only allows users to track their desired characters but also be able to get valuable insight in the character demands. The biggest features of Wishlist are:</p>
+          <ul>
+            <li>Players can create and manage a list of characters they wish to acquire.</li>
+            <li>The number of wishlists associated with a character serves as a quantitative measure of that character's popularity. This metric can influence the perceived value of the character card.</li>
+            <li>Characters with higher wishlist counts may be viewed as more valuable due to increased interest from the community.</li>
+          </ul>
+          <p class="code">
+            <code>Guild</code>
+            </p>
+            <p>Players can make a guild of Sofi players that they regularly play together with. Guilds consist of four primary roles: <span class="bold">Founder, Guildmaster, Veteran, and Rookie</span>. Each role comes with specific permissions, with the Founder having the highest level of authority, including full administrative capabilities. The Guildmaster with a second authority level, and Veteran/Rookie having no authority level. Promotion within these roles should be approached carefully.</p>
+            <p>Guilds begin at Level 1 and can earn experience points (XP) through various activities. Upgrading the guild requires XP and enables additional features. Member capacity can also be expanded over time, allowing for more players to join. Guilds participate in seasonal competitions, where they are ranked based on performance in raids. Each season consists of active gameplay periods followed by a grace period, during which rankings are not updated.Guilds can purchase and upgrade various boosts that enhance performance in quests and crafting. Each boost requires a specific amount of resources and offers unique benefits, contributing to overall guild efficiency.</p>
+            <p>
+This general structure allows guilds to operate effectively, fostering teamwork and enhancing the gaming experience for all members.</p>
+
+          <p>Players can find more information on all of these features by viewing the <a href="https://guide.sofi.gg/general-commands/lookup">sofi guide</a>.</p>
+      </section>
+      <section class="main-section" id="currency_and_trading">
+        <header class="header">Currency and Trading</header>
+        <div class="header2">
+        <h2>Currency</h2>
+        <p >Currencies play a critical role in the Sofi ecosystem, facilitating transactions and interactions across various mechanics and features.Understanding the different types of currencies is essential for effective utilization of the game’s systems. Currencies are required for crafting, guild management, item purchases, trading, and other in-game activities.</p>
+        <ol>
+          <li><span class="bold">Wists</span> - The wists currency is the most widely used and centralized form of currency within the Sofi ecosystem. It serves as the primary medium of exchange for in-game transactions and is predominantly utilized for player-to-player trades. <span class="bold">Obtained from Voting.</span></li>
+          <li><span class="bold">Silvers</span> - Silvers are the “common” currency of Sofi and are mostly used for cosmetics. <span class="bold">Obtained from burning cards.</span></li>
+          <li><span class="bold">Cubes</span> - Cubes are used exclusively to get a 3D version of a character. Obtained from burning cards</li>
+          <li><span class="bold">Elixirs</span> - Elixir is a Guild Exclusive currency</li>
+          <li><span class="bold">Shards</span> - Shards are a currency related to Guild and Raid/PvP activities</li>
+          <li><span class="bold">Gems</span> - Gems are a premium currency that requires real money to purchase outside of trading for it from other players and the market.</li>
+        </ol>
+        </div>
+        <div class="header2">
+        <h2>Trading</h2>
+        <p>A trade request can be sent via <span class="bold">smultitrade</span>, provided both parties possess an <span class="bold">active Trade Pass.</span> Some examples of trade include:</p>
+        <p>
+          <table class="table">
+            <tr>
+            <th>Item</th>
+            <th>Usage</th>
+            <th>Example</th>
+            </tr>
+            <td>Item</td>
+            <td>[amount] [itemName]</td>
+            <td>10 Wists</td>
+            </tr>
+            <tr>
+            <td>Card Code</td>
+            <td>[Card-Code]</td>
+            <td>p01bir</td>
+            </tr>
+            <tr>
+            <td>Frame</td>
+            <td>[Frame Name] [Frame Code]</td>
+            <td>Zoro / $2ded9</td>
+            </tr>
+          </table>
+          </p>
+          <p>Players that feel generous can also give cards to other players without using the trade pass with <span class="bold">sgive @player_name [card code].</span> This command lets a player give another player a card without expecting anything back. Both players must click the checkmark to make a succesful pass of a card. </p>
+        </div>
+      </section>
+      <section class="main-section" id="cosmetics">
+        <header class="header">Cosmetics</header>
+        <div class="header2">
+        <h2>Frames</h2>
+        <p>Frames can be used to add a specialized border around a card. They are a lesser upgrade than a 3D, but players have the option to choose their frames for their card, it is also an alternative if the players specific card does not have a 3D.</p>
+        <p>There are five types of frames players can aquire. They are, Official, Custom, Monthly, Limited, and Legacy frames. Players can lookup buyable frames by typing in <span class="bold">sframeshop</span> where two Official frames and six custom frames are rotated daily.</p>
+        <h2>Morph</h2>
+        <p>Morphs are customizable color filters applied to a card, allowing for a wide range of visual effects. These filters can subtly adjust hues, apply tints, or even invert colors, offering extensive possibilities for unique card appearances.</p>
+        <ul>
+          <li>On 2D’s only the frame or the type color will be changed.</li>
+          <li>On 3D’s the entire base card will change.</li>
+        </ul>
+        <p>Players can buy a random morph for 350 silvers using <span class="bold">smorph (or sm)</span>. Players can also undo the morph for 100 silvers using <span>sundomorph (or sum)</span>.</p>
+        <h2>Backgrounds</h2>
+        <p>Backgrounds are 3D-exclusive cosmetics that enhance the card by filling in its gaps. They can be accessed and viewed using their ID with the <span class="bold">sbackgroundshop (or sbgs, sbgshop)</span> command.</p>
+        <p>Players can buy any background excluding Event Exclusive Backgrounds(only can be purchased when an event happens) by typing the command <span class="bold">sbuy( or sget)</span> and apply the background by the command <span class="bold">sbackground (or sbg, subg)</span></p>
+        <h2>Glows</h2>
+        <p>Glows are a premium cosmetic in Sofi that add a blurred glow effect around a selected card, excluding GIFs. To obtain a glow, users can either unlock one or purchase it through glow-selling services available in Sofi Cafe and other Sofi-playing servers.
+Once unlocked, a glow requires recharging for continued use. Each recharge costs 65 gems, allowing for infinite recharges thereafter.</p>
+<p>Normal glows cost 100 gems to unlock with the command <span class="bold">sunlockglow (or sug)</span> and once aquired players can use a glow by the command <span class="bold">sglow</span>. Players can also rename and undo a glow by the commands <span class="bold">sglowname and sundoglow</span>, respectively. A Super Glow is created by merging two glows, resulting in a gradient effect and a significantly brighter appearance. You need 2 available glows to merge for the Super Glow, which can be done with the <span class="bold">ssuperglow</span> command. All this will cost around 1000 gems.</p>
+          <p>More details will be on the Official Sofi Guide website.</p>
+        </div>
+      <section class="how-to-get-started">
+        <header class="header">How To Get Started</header>
+        <ol>
+          <li>Download <a href="https://discord.com/">Discord</a></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+      </section>
+      </section>
+    </main>
+  </body>
+  <footer id="references"><header>References</header>
+  <ul>
+    <li>All images and tables are sourced from the <a href="https://guide.sofi.gg/">Official Sofi Guide Website.</a></li>
+    <li>Additionally all general information is also sourced from the Official Sofi Guide Website</li>
+  </ul>
+  </footer>
+</html>
